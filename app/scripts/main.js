@@ -17,7 +17,9 @@ $(".accordian-tab-2").on("click", function() {
 	}else{
 		$(".accordian-bellows-2").show()
 	}
-
+if($(".accordian-bellows-1").is(":visible")) {
+		$(".accordian-bellows-1").hide()
+	}
 });
 
 $(".accordian-tab-3").on("click", function() {
@@ -27,6 +29,9 @@ $(".accordian-tab-3").on("click", function() {
 		$(".accordian-bellows-3").hide()
 	}else{
 		$(".accordian-bellows-3").show()
+	}
+	if($(".accordian-bellows-2").is(":visible")) {
+		$(".accordian-bellows-2").hide()
 	}
 
 });

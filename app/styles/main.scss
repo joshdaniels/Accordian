@@ -18,17 +18,23 @@ height: 177px;
 .accordian-tab-1{
 background-image:url("../images/accordian-tab.png");
 height: 50px;
+position:relative;
+z-index:1;
 
 }
 .accordian-tab-2{
 background-image:url("../images/accordian-tab.png");
 height: 50px;
+position:relative;
+z-index:1;
 
 }
 
 .accordian-tab-3{
 background-image:url("../images/accordian-tab.png");
 height: 50px;
+position:relative;
+z-index:1;
 
 }
 
@@ -68,4 +74,40 @@ font-size:24px;
 left: 65px;
 font-family:'Amatic SC';
 padding-right: 25px;
+}
+.tab-text{
+position:absolute;
+z-index:2;
+color:white;
+font-size:24px;
+font-family:'Sancreek';
+margin: 0 auto;
+padding-left: 25px;
+padding-top:10px;
+color: goldenrod;
+}
+
+.tab-text-2{
+ position:absolute;
+z-index:2;
+color:white;
+font-size:24px;
+font-family:'Sancreek';
+margin: 0 auto;
+padding-left: 25px;
+padding-top:10px; 
+color: goldenrod;
+
+}
+.tab-text-3{
+position:absolute;
+z-index:2;
+color:white;
+font-size:24px;
+font-family:'Sancreek';
+margin: 0 auto;
+padding-left: 25px;
+padding-top:10px;
+color: goldenrod;
+
 }

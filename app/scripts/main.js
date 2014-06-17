@@ -30,3 +30,4 @@ $(".accordian-tab-3").on("click", function() {
 	}
 
 });
+s

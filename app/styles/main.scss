@@ -1,0 +1,71 @@
+
+@import '../bower_components/bourbon/dist/bourbon';
+body{
+    background-image:url("../images/background2.jpg");
+}
+
+
+.accordian{
+width:300px;
+margin: 0 auto;
+
+}
+.accordian-top{
+background-image: url("../images/accordian-top.png");
+height: 177px;
+}
+
+.accordian-tab-1{
+background-image:url("../images/accordian-tab.png");
+height: 50px;
+
+}
+.accordian-tab-2{
+background-image:url("../images/accordian-tab.png");
+height: 50px;
+
+}
+
+.accordian-tab-3{
+background-image:url("../images/accordian-tab.png");
+height: 50px;
+
+}
+
+.accordian-bottom{
+background-image:url("../images/accordian-bottom.png");
+height:51px;
+}
+.accordian-bellows-1{
+background-image:url("../images/accordian-bellows.png");
+height:300px;
+display: none;
+position:relative;
+z-index:1;
+}
+.accordian-bellows-2{
+background-image:url("../images/accordian-bellows.png");
+height:300px;
+display: none;
+position:relative;
+z-index:1;
+
+}
+.accordian-bellows-3{
+background-image:url("../images/accordian-bellows.png");
+height:300px;
+display: none;
+position:relative;
+z-index:1;
+
+}
+
+.first-text{
+position:absolute;
+z-index:2;
+color:white;
+font-size:24px;
+left: 65px;
+font-family:'Amatic SC';
+padding-right: 25px;
+}
